@@ -1,0 +1,1784 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+.location p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+}
+
+
+.menu li a:hover {
+    color: rgb(171, 179, 186);
+    cursor: pointer;
+}
+
+.menu {
+    color: #fff;
+    gap: 20px;
+}
+
+.hair {
+    background-image: linear-gradient(rgba(236, 233, 228, 0.8), rgba(236, 233, 228, 0.5)), url(./image/unsplash_62vi3TG5EDg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hair-solution {
+    align-self: center;
+    min-height: 695px;
+}
+
+.dry-hair {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.dry-hair h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    align-items: center;
+    color: #0F0F0F;
+    text-transform: uppercase;
+    align-self: center;
+    font-family: 'Jost';
+    align-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.dry-hair p {
+    min-height: 96px;
+    color: #4D4D4D;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.hair-solution img {
+    width: 495px;
+    height: 495px;
+    display: flex;
+    margin-left: auto;
+}
+
+.shop button {
+    width: 161px;
+    min-height: 54px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    background: #0F0F0F;
+    border: 1px solid #0F0F0F;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 10px;
+}
+
+.hair-care {
+    align-items: center;
+}
+
+.hair-care img {
+    width: 100%;
+}
+
+.hair-care h3 {
+    font-family: "Jost";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.hair-care h6 {
+    font-family: "Jost";
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 20px;
+}
+
+.product button {
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 30px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    min-height: 695px;
+    align-items: center;
+}
+
+.content h1 {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.content h6 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F7F7F7;
+    margin-bottom: 40px;
+}
+
+.content-shop button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 161px;
+    min-height: 54px;
+    font-weight: 700;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    background: #ffff;
+    border: 1px solid #0F0F0F;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 10px;
+}
+
+.content img {
+    background-image: url(./image/annie-spratt-hX_hf2lPpUU-unsplash-removebg-preview\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-product h3 {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.card-1 .card {
+    border: transparent;
+}
+
+.card-1 .card-body {
+    background: #F7F7F7;
+}
+
+.card-1 h5 {
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card-1 p {
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card-1 h6 {
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.card-1 h6 span {
+    color: #4D4D4D;
+    text-decoration: line-through;
+}
+
+.card-1 button {
+    width: 175px;
+    height: 41px;
+    border: 1px solid #4D4D4D;
+    border-radius: 15px;
+    color: #4D4D4D;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.like-icon span {
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+.like-icon p {
+    font-family: "Jost";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #F04438;
+    float: left;
+    padding: 15px 15px;
+    border-radius: 15px;
+    margin-right: auto;
+}
+
+.shampoo {
+    background-color: #374A5B;
+    align-items: center;
+    position: relative;
+}
+
+.shampoo img {
+    width: 100%;
+}
+
+.shampoo h1 {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F7F7F7;
+    margin-bottom: 15px;
+}
+
+.shampoo p {
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: #F7F7F7;
+    margin-bottom: 20px;
+}
+
+.shampoo span {
+    font-family: "jost";
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.lif {
+    position: absolute;
+    top: -20%;
+    right: -0%;
+    transform: rotateX(-180deg);
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+
+.lif img {
+    width: 25%;
+}
+
+.instagram h3 {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 60px 0 30px 0px;
+}
+
+
+.last-section {
+    width: 100%;
+}
+
+.last-section img {
+    width: 100%;
+    height: 594px;
+
+}
+
+.last-section-text {
+    width: 60%;
+    position: relative;
+    top: 30%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.last-section-text h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.last-section-text h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #F04438;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.last-section-text p {
+    height: 101px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #4D4D4D;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.shampo-card .card {
+    border: transparent;
+}
+
+.shampo-card .card-body {
+    background: #F7F7F7;
+
+}
+
+.shampo-card h5 {
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.shampo-card p {
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.shampo-card h6 {
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.shampo-card h6 span {
+    color: #4D4D4D;
+    text-decoration: line-through;
+}
+
+.shampo-card button {
+    width: 175px;
+    height: 41px;
+    border: 1px solid #4D4D4D;
+    border-radius: 15px;
+    color: #4D4D4D;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.last-section-text input {
+    background-color: #F7F7F7;
+    border: none;
+}
+
+.last-section-text button {
+    margin-top: 5%;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.last-section-text button:hover {
+    background-color: #000000;
+    color: #F7F7F7;
+}
+
+.ourblog h3 {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.card-2 .card-body {
+    background: #F7F7F7;
+}
+
+
+.card-2 .card-text {
+    color: #4D4D4D;
+}
+
+
+.testimonialH1 {
+    text-align: center;
+    margin-top: 7% !important;
+}
+
+.personal {
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+.title {
+    font-size: 52px;
+    font-weight: 700;
+
+}
+
+.breadcrumb {
+    justify-content: center;
+    text-align: center;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: #b0abab;
+
+}
+
+.product-title {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    min-height: 70px;
+}
+
+.product-title select {
+
+    border: none;
+    margin-left: 20px;
+
+}
+
+.sortby {
+
+    border-radius: 5px;
+    width: 60% !important;
+    padding-left: 5px;
+    background: #F7F7F7;
+}
+
+.filter {
+    border-radius: 5px;
+    width: 30% !important;
+    color: #fff;
+    padding: 5px 5px;
+    background-color: #000000;
+}
+
+.filter span i {
+    color: #e2dfdf;
+}
+
+
+.pagination li a {
+    color: #000000;
+    font-weight: 400;
+}
+
+.pagination li a:hover {
+    color: #000000;
+    font-weight: 400;
+}
+
+.pagination .border-redius {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+
+.b1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 72px;
+    color: black;
+}
+
+.b2 a {
+    font-family: 'Jost';
+    font-style: normal;
+
+    color: grey;
+}
+
+.b2 a.active {
+    color: rgb(0, 0, 0);
+
+}
+
+#haunting {
+    background: url(./image/Rectangle8.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 200px 150px;
+}
+
+.haun1 {
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 60px;
+
+}
+
+.scent {
+    background: #F7F7F7;
+    border: none;
+}
+
+.scenttext {
+    color: #4D4D4D;
+}
+
+
+.name {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.imagesDiv {
+    margin-top: 10% !important;
+}
+
+.imgMain {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img {
+    margin: 5px;
+}
+
+.praDiv {
+    margin-top: 5% !important;
+    padding-right: 8%;
+}
+
+.testimonialH1 {
+    text-align: center;
+    margin-top: 7% !important;
+}
+
+.personal {
+    text-align: center;
+    padding: 5%;
+}
+
+.ourTeamH1 {
+    text-align: center;
+    margin-top: 1% !important;
+}
+
+.ourTeamMain {
+    margin-left: 4%;
+}
+
+.ourTeamSubDiv {
+    text-align: center;
+}
+
+.onlinesupport {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.support {
+    margin-top: 4% !important;
+}
+
+.logoMain {
+    background: url("./image/new-img.png");
+    background-size: cover;
+    color: white;
+    height: 70vh;
+    background-position: center center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firt-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.applyBtn {
+    line-height: 30px;
+    padding: 5px 50px;
+    background-color: #fff;
+    border: 2px solid #4D4D4D;
+    border-radius: 8px;
+    color: #4D4D4D;
+}
+
+.fh1 {
+    font-weight: 900;
+}
+
+
+.contact h6 {
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.contact p {
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.call {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.category {
+    border: 1px solid transparent;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.search {
+    border: 1px solid #DEDEDE;
+    background-color: #ffff;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.today h3 {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.today h6 {
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.today p {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card-2 .card-body {
+    background: #F7F7F7;
+}
+
+
+.card-2 .card-text {
+    color: #4D4D4D;
+}
+
+.women p {
+    font-family: "Jost";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A5A6B6;
+}
+
+.women h3 {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.women h6 {
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+.ml {
+    display: flex;
+    border: 1px solid transparent;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    gap: 100px;
+    padding: 10px 15px;
+    font-family: "jost";
+
+}
+
+.pluse {
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    margin-right: 10px;
+    font-family: "jost";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.qty {
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.quantity {
+    min-height: 80px;
+    align-items: center;
+    font-family: "jost";
+    font-weight: 400;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.department h6 {
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.similar {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.write {
+    font-family: "Jost";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.wade {
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.global h3 {
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.global h1 {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.global h6 {
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.bar-5 {width: 75%; height: 18px; border-radius: 50px; background-color: #000;}
+.bar-4 {width: 16%; height: 18px; border-radius: 50px; background-color: #000;}
+.bar-3 {width: 10%; height: 18px; border-radius: 50px; background-color: #000;}
+.bar-2 {width: 3%; height: 18px; border-radius: 50px; background-color: #000;}
+.bar-1 {width: 7%; height: 18px; border-radius: 50px; background-color: #000;}
+
+
+.side {
+    width: 5%;
+    margin-top:10px;
+    justify-content: flex-start;
+    display: flex;
+  }
+  
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+    border: 1px solid transparent;
+    justify-content: flex-start;
+  }
+
+
+.right {
+    text-align: right;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+  }
+
+
+@media screen and (max-width:1200px) {
+    .last-section-text {
+        min-width: 70%;
+        top: 20%;
+    }
+
+    .img-2 {
+        gap: 10px;
+    }
+
+    .img-3 {
+        gap: 5px;
+    }
+}
+
+
+#payment{
+    color: #0F0F0F;
+    background-color: #CDCDCD;
+    background-size: cover;
+}
+.history1{
+    margin-right:20px;
+}
+.history .btn{
+    width: 300px;
+}
+
+@media (max-width: 767px){
+    .paymenttext{
+        font-size: 15px;
+    }
+    .history1{
+        margin-right: 0px;
+    }
+    .btn{
+        width: 300px;
+    }
+    .history2{
+        margin-top: 10px;
+    }
+    
+}
+@media (max-width: 540px){
+    .paymenttext{
+        font-size: 13px;
+    }
+    .history1{
+        margin-right: 0px;
+    }
+    .btn{
+        width: 250px;
+    }
+    
+}
+@media (max-width: 450px){
+    .paymenttext{
+        font-size: 10px;
+    }
+    .btn{
+        width: 200px;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:1412px) {
+    .img-1 {
+        width: 200px;
+    }
+
+}
+
+
+@media screen and (max-width:328px) {
+    .ourblog h3 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width:1028px) {
+    .last-section-text {
+        min-width: 70%;
+        top: 20%;
+
+    }
+
+    .last-section-text h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .last-section-text p {
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .img-1 {
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .contact {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width:991px) {
+    .bre-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .women p {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 30px;
+    }
+
+    .women h3 {
+        text-align: center;
+    }
+
+    .women h5 {
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .women h6 {
+        text-align: center;
+    }
+
+    .quantity {
+        justify-content: center;
+    }
+
+    .cart button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .option {
+        text-align: center;
+    }
+
+    .postal-code button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+@media screen and (max-width:418px) {
+    .b1 {
+        font-size: 50px;
+    }
+
+    .contact p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .last-section-text {
+        min-width: 70%;
+        top: 5%;
+
+    }
+
+    .last-section-text {
+
+        margin: auto;
+        margin-bottom: 30px;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width:767px) {
+    .first-section-text {
+        padding-right: 40%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .first-section-text {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width:698px) {
+
+    .img-1 {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width:568px) {
+    .last-section img {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .women h5 {
+        flex-direction: column;
+    }
+
+    .rating {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .women h6 {
+        text-align: center;
+    }
+
+    .quantity {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .cart {
+        flex-direction: column;
+    }
+
+    .postal-code {
+        flex-direction: column;
+    }
+
+    .postal-code input {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:496px) {
+
+    .img-2 {
+        flex-direction: column;
+    }
+
+    .img-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img-1 {
+        margin-right: auto;
+        margin-left: auto;
+        gap: 30px;
+    }
+
+    .women h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .last-section p {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:288px) {
+    .last-section p {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 344px) {
+    .delay {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 250px) {
+    .card123 {
+        width: 250px !important;
+    }
+
+}
+
+.footer {
+    background: #0F0F0F;
+}
+
+.footer img {
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+.footer-p1 {
+    text-align: left;
+    color: white;
+}
+
+.social-media a {
+    background-color: rgba(243, 241, 241, 0.2);
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin: 5px 5px;
+    color: #F7F7F7;
+}
+
+.social-media i {
+    font-size: 20px;
+}
+
+.footer-titles {
+    color: white;
+}
+
+.footer-list ul li {
+    list-style: none;
+
+}
+
+.footer-list ul li a,
+.footer-p2,
+.footer-copyright,
+.footer-copyright a {
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+.adress-icon i {
+    color: #e2dfdf;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:998px) {
+    .social-media a {
+
+
+        padding: 5px 5px;
+        margin: 5px 5px;
+        color: #F7F7F7;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1864px) {
+    .content img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .dry-hair h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .dry-hair p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 1382px) {
+    .shampoo h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .shampoo p {
+        font-size: 20px;
+    }
+
+    .shampoo span {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1082px) {
+    .shampoo h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .shampoo p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .shampoo span {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .dry-hair h1 {
+        font-size: 40px;
+    }
+
+    .dry-hair p {
+        font-size: 18px;
+    }
+
+    .hair-solution img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1063px) {
+    .hair-care h3 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .hair-care h6 {
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0em;
+    }
+
+    .product button {
+        font-size: 15px;
+        padding: 10px 25px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .haun1 {
+        font-family: 'Jost';
+        font-weight: 200;
+        font-size: 35px;
+    }
+
+    .haun2 {
+        font-size: 10px;
+    }
+
+    .c1 {
+        font-size: 22px;
+    }
+
+    .c2 {
+        font-size: 22px;
+    }
+
+    .scenttext {
+        font-size: 13px;
+    }
+
+    .scentread {
+        font-size: 13px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 822px) {
+    .shampoo h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .shampoo p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .shampoo span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .haun1 {
+        font-family: 'Jost';
+        font-weight: 200;
+        font-size: 18px;
+
+    }
+
+    .haun2 {
+        font-size: 10px;
+    }
+
+    .c1 {
+        font-size: 18px;
+
+    }
+
+    .c2 {
+        font-size: 18px;
+    }
+
+    .scenttext {
+        font-size: 12px;
+    }
+
+    .scentread {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .menu li a {
+        justify-content: center;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .menu i {
+        padding-right: 10px;
+    }
+
+    .dry-hair h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .dry-hair p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .hair-solution img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .content h1 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .content h6 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 794px) {
+    .hair-care h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hair-care h6 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 259px) {
+    .hair-care h6 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-1 .card {
+        margin-bottom: 30px;
+    }
+
+    .lif {
+        top: 42%;
+    }
+
+    .shampoo h1 {
+        font-size: 48px;
+        line-height: 72px;
+    }
+
+    .shampoo p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .shampoo span {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+    .content-shop {
+        margin-bottom: 20px;
+    }
+
+    .lif img {
+        width: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dry-hair h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .dry-hair p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .hair-solution img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .hair-care {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hair-care h3 {
+        margin-top: 20px;
+    }
+
+    .product button {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .hair-solution img {
+        margin-right: auto;
+    }
+
+    .dry-hair h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .dry-hair p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 540px) {
+    .haun1 {
+        font-family: 'Jost';
+        font-weight: 200;
+        font-size: 14px;
+
+    }
+
+    .haun2 {
+        font-size: 10px;
+    }
+
+    .c1 {
+        font-size: 18px;
+
+    }
+
+    .c2 {
+        font-size: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    .dry-hair h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .dry-hair p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+}
+
+
+@media only screen and (max-width: 384px) {
+    .location p {
+        font-size: 13px;
+    }
+
+    .location h6 {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    .location {
+        flex-direction: column;
+    }
+
+    .location h6 {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .haun1 {
+        font-family: 'Jost';
+        font-weight: 200;
+        font-size: 12px;
+
+    }
+
+    .haun2 {
+        font-size: 5px;
+    }
+
+    .c1 {
+        font-size: 17px;
+
+    }
+
+    .c2 {
+        font-size: 17px;
+
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .dry-hair h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .dry-hair p {
+        font-size: 10px;
+        line-height: 19px;
+    }
+
+    .hair-solution img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .our-product h3 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 300px) {
+    .haun1 {
+        font-family: 'Jost';
+        font-weight: 200;
+        font-size: 12px;
+
+    }
+
+    .haun2 {
+        font-size: 5px;
+    }
+
+    .c1 {
+        font-size: 16px;
+
+    }
+
+    .c2 {
+        font-size: 16px;
+
+    }
+}
+
+@media only screen and (max-width: 272px) {
+    .dry-hair h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .dry-hair p {
+        font-size: 9px;
+        line-height: 19px;
+    }
+}
+
+@media only screen and (max-width: 219px) {
+    .menu img {
+        width: 20px;
+    }
+}
