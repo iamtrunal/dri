@@ -422,6 +422,7 @@
     margin-top: auto;
     margin-right: 20px;
     text-align: right;
+    margin-bottom: 80px;
 }
 
 .last-section-text h2 {
@@ -430,6 +431,10 @@
     line-height: 40px;
     text-transform: uppercase;
     color: #000000;
+}
+
+.girle {
+    margin-top: 20px;
 }
 
 .last-section-text h5 {
@@ -1176,6 +1181,8 @@
     }
 }
 
+@media screen and (max-width:12px) {}
+
 @media screen and (max-width:576px) {
     .moisture {
         display: none;
@@ -1444,7 +1451,7 @@
 @media screen and (max-width:568px) {
     .last-section img {
         width: 100%;
-        height: 450px;
+        height: 100%;
     }
 }
 
