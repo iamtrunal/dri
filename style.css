@@ -853,9 +853,11 @@
     text-align: center;
 }
 
-.call {
+.contact-option {
     min-height: 500px;
+    margin-top: 70px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
