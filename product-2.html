@@ -15,6 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -177,9 +179,9 @@
                 </div>
 
                 <div class="col-lg-12 d-flex gap-3 postal-code">
-                    <input type="text" placeholder="Postal Code" class="col-lg-9 col-6 rounded-3 border-dark pl-2">
+                    <input type="text" placeholder="  Postal Code" class="col-lg-9 col-6 rounded-3 border-dark pl-2">
                     <button type="button"
-                        class="btn col-md-3 bg-dark text-light d-flex justify-content-center p-2 rounded-3 gap-4 align-items-center">
+                        class="btn col-md-3 bg-dark text-light d-flex justify-content-center py-2 px-5 rounded-3 gap-4 align-items-center">
                         <h6 class="my-auto">SEARCH</h6>
                         <a href="#"><i class="fa-solid fa-location-crosshairs text-light"></i></a>
                     </button>
@@ -190,223 +192,395 @@
     </div>
 
     <div class="container mt-5">
-        <div class="row department">
-            <div class="col-md-3 text-secondary">
-                <h6>DESCRIPTION</h6>
-            </div>
-            <div class="col-md-3">
-                <h6>PRODUCT DETAILS</h6>
-            </div>
-            <div class="col-md-3 text-secondary">
-                <h6>REVIEW</h6>
-            </div>
+     
+        <div id="exTab1" class="container">
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#1a" data-toggle="tab" >DESCRIPTION</a>
+                </li>
+                <li><a href="#2a" data-toggle="tab">PRODUCT DETAILS</a>
+                </li>
+                <li><a href="#3a" data-toggle="tab">REVIEW</a>
+                </li>
+                <li>
+            </ul>
+            <hr/>
 
-            <hr class="mb-5">
-        </div>
-    </div>
-
-    <div class="container mb-5">
-        <div class="row">
-            <div class="col-md-7">
-               <p>Made with 100% natural and freshly extracted medicinal herbs like Hibiscus, Sesame Oil, and Methi that leaves your hair strong and healthy with no greys.</p>
-               <p>» 91% of users observed hair growth after 2 months of usage.</p>
-               <p>» 83% of users observed reduction in hair fall and improvement in hair strength.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Specifications</h4>
-                <p>Boots hair growth</p>
-                <p>Add strength & shine</p>
-                <p>Gives visibly thicker</p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container mb-4">
-        <div class="row">
-            <div class="col-md-12 similar">
-                <h1>similar products</h1>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row our-product">
-
-            <div class="col-md-4 col-sm-6 card-1">
-                <div class="card text-center">
-                    <img src="./image/Rectangle 8.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="card-img-overlay like-icon">
-                            <p>20% OFF</p>
-                            <span class="material-symbols-outlined">
-                                favorite
-                            </span>
+            <div class="tab-content clearfix">
+                <div class="tab-pane active" id="1a">
+                    <div class="container mb-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1>Explore the Features</h1> <br>
+                                <ol style="list-style-type: decimal;">
+                                    <li>Under the arch of the sole is where you’ll find this forward-facing part.</li>  <br>
+                                    <li>Stiff material positioned between the lining and upper that helps keep the shape of the shoe.</li> <br>
+                                    <li>The part of the sole that raises the shoe’s rear, which should range from 2” to 6” and of a width based on preference.</li> <br>
+                                    <li>The part of the sole that raises the shoe’s rear, which should range from 2” to 6” and of a width based on preference.</li> <br>
+                                    <li>Portion of the heel that comes in contact with the ground.</li> <br>
+                                </ol>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./image/image 5.png" class="img-fluid" alt="image is not found">
+                            </div>
                         </div>
-                        <h5 style="color: yellow;">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </h5>
-                        <h4>DRI TRAVEL TRIO</h4>
-                        <p>On-the-go moisture in a holiday</p>
-                        <h6>
-                            $200 <span> $500 </span>
-                        </h6>
-                        <button><i class="fa-solid fa-cart-shopping"></i> ADD TO CARD</button>
+                    </div>
+                </div>
+                <div class="tab-pane" id="2a">
+                    <div class="container mb-5">
+                        <div class="row">
+                            <div class="col-md-7">
+                               <p>Made with 100% natural and freshly extracted medicinal herbs like Hibiscus, Sesame Oil, and Methi that leaves your hair strong and healthy with no greys.</p>
+                               <p>» 91% of users observed hair growth after 2 months of usage.</p>
+                               <p>» 83% of users observed reduction in hair fall and improvement in hair strength.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Specifications</h4>
+                                <p>Boots hair growth</p>
+                                <p>Add strength & shine</p>
+                                <p>Gives visibly thicker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="3a">
+                    <div class="container mb-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="write">Write a Review</h4>
+                                <input type="text" placeholder="Type Somthings" class="col-md-12 rounded-3 border border-secondary p-2">
+                
+                                <div class="d-flex gap-3 mt-3">
+                                    <div>
+                                        <img src="./image/Avatars.png" alt="image is not found">
+                                    </div>
+                                    <div>
+                                        <h3 class="wade">Wade Warren</h3>
+                                        <div class="d-flex gap-3">
+                                            <div> <i style="color: #FFC400;" class="fa-solid fa-star"></i>
+                                                <i style="color: #FFC400;" class="fa-solid fa-star"></i>
+                                                <i style="color: #FFC400;" class="fa-solid fa-star"></i>
+                                                <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                                                <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div>
+                                                <p style="color: #CDCDCD;">5 day ago</p>
+                                            </div>
+                
+                                        </div>
+                                    </div>
+                                    
+                
+                                   
+                
+                
+                
+                                </div>
+                                <br>
+                                <p>It   says unscented in the product description but in reality it has an awful and strong scent that left my head spinning and I literally had a headache for the whole day.</p>
+                                <div class="col-md-12 d-flex gap-2">
+                                    <div class="col-3">
+                                        <img src="./image/unsplash__hbzYIB4l9Q (1).png" class="img-fluid" alt="image is not found">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="./image/unsplash__hbzYIB4l9Q (1).png" class="img-fluid" alt="image is not found">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="./image/unsplash__hbzYIB4l9Q (1).png" class="img-fluid" alt="image is not found">
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <hr>
+                                <div class="content-shop mb-5 pb-5 mt-5 pb-5">
+                                    <button type="button" class="btn btn-light">VIEW MORE</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 global">
+                                <h3>Retings</h3>
+                                <br>
+                                <h1>3.0</h1>
+                                <h6>18,546 global ratings</h6>
+                
+                                <div class="fs-3 mt-2"> <i style="color: #FFC400;" class="fa-solid fa-star"></i>
+                                    <i style="color: #FFC400;" class="fa-solid fa-star"></i>
+                                    <i style="color: #FFC400;" class="fa-solid fa-star"></i>
+                                    <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                                    <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                                </div>
+                
+                
+                                
+                
+                
+                                <div class="row mt-4">
+                                    <div class="d-flex">
+                                    <div class="side">
+                                      <div>5</div>
+                                    </div>
+                                    <div class="middle">
+                                      <div class="bar-container">
+                                        <div class="bar-5"></div>
+                                      </div>
+                                    </div>
+                                    <div class="side right">
+                                      <div>75%</div>
+                                    </div>
+                                </div> <br>
+                
+                                <div class="d-flex">
+                                    <div class="side">
+                                      <div>4</div>
+                                    </div>
+                                    <div class="middle">
+                                      <div class="bar-container">
+                                        <div class="bar-4"></div>
+                                      </div>
+                                    </div>
+                                    <div class="side right">
+                                      <div>16%</div>
+                                    </div>
+                                </div><br>
+                
+                                <div class="d-flex">
+                                    <div class="side">
+                                      <div>3</div>
+                                    </div>
+                                    <div class="middle">
+                                      <div class="bar-container">
+                                        <div class="bar-3"></div>
+                                      </div>
+                                    </div>
+                                    <div class="side right">
+                                      <div>5%</div>
+                                    </div>
+                                </div><br>
+                
+                                <div class="d-flex">
+                                    <div class="side">
+                                      <div>2</div>
+                                    </div>
+                                    <div class="middle">
+                                      <div class="bar-container">
+                                        <div class="bar-2"></div>
+                                      </div>
+                                    </div>
+                                    <div class="side right">
+                                      <div>1%</div>
+                                    </div>
+                                </div><br>
+                
+                                <div class="d-flex">
+                                    <div class="side">
+                                      <div>1</div>
+                                    </div>
+                                    <div class="middle">
+                                      <div class="bar-container">
+                                        <div class="bar-1"></div>
+                                      </div>
+                                    </div>
+                                    <div class="side right">
+                                      <div>3%</div>
+                                    </div>
+                                  </div>
+                                </div><br>
+                
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4 col-sm-6 card-1">
-                <div class="card text-center">
-                    <img src="./image/Rectangle 8 (1).png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5>
-                            <i style="color: yellow;" class="fa-solid fa-star"></i>
-                            <i style="color: yellow;" class="fa-solid fa-star"></i>
-                            <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
-                            <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
-                            <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
-                        </h5>
-                        <div class="card-img-overlay like-icon">
-                            <span class="material-symbols-outlined">
-                                favorite
-                            </span>
-                        </div>
-                        <h4>DRI TRAVEL TRIO</h4>
-                        <p>On-the-go moisture in a holiday</p>
-                        <h6>
-                            $200 <span> $500 </span>
-                        </h6>
-                        <button><i class="fa-solid fa-cart-shopping"></i> ADD TO CARD</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 card-1">
-                <div class="card text-center">
-                    <img src="./image/Rectangle 8 (2).png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5>
-                            <i style="color: yellow;" class="fa-solid fa-star"></i>
-                            <i style="color: yellow;" class="fa-solid fa-star"></i>
-                            <i style="color: yellow;" class="fa-solid fa-star"></i>
-                            <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
-                            <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
-                        </h5>
-                        <div class="card-img-overlay like-icon">
-                            <span class="material-symbols-outlined">
-                                favorite
-                            </span>
-                        </div>
-                        <h4>DRI TRAVEL TRIO</h4>
-                        <p>On-the-go moisture in a holiday</p>
-                        <h6>
-                            $200 <span> $500 </span>
-                        </h6>
-                        <button><i class="fa-solid fa-cart-shopping"></i> ADD TO CARD</button>
-                    </div>
-                </div>
-            </div>
-            <div class="content-shop mb-5 pb-5 mt-5 pb-5">
-                <button type="button" class="btn btn-light">VIEW MORE</button>
-            </div>
         </div>
-    </div>
 
 
-    <footer class="footer font-small teal pt-4">
-
-        <div class="container  text-md-left">
+        <div class="container mb-4">
             <div class="row">
-                <div class="col-md-4 mt-md-0 mt-3 px-5">
-
-                    <img src="./image/WhatsApp_Image_2022-11-05_at_1.30.png" alt="image is not found" class="img-fluid">
-                    <p class="footer-p1">it is a long established fact that a reader will be distracted by the readable
-                        content of a page when looking at its layout.</p>
-                    <h6 class="footer-p1">FOLLOW US</h6>
-                    <div class="d-flex flex-center social-media">
-
-
-                        <a class="ins-ic">
-                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <a class="fb-ic">
-                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <a class="pin-ic">
-                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-                        </a>
-                        <a class="tw-ic">
-                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <a class="yt-ic">
-                            <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-
-
-                    </div>
-                </div>
-                <div class="col-md-4 mt-md-0 mt-3 ">
-
-                    <!-- Content -->
-                    <h5 class="text-uppercase font-weight-bold footer-titles p-4">COMPANY</h5>
-                    <div class="row footer-list">
-                        <div class="col-md-5">
-                            <ul>
-                                <li><a href="">Product</a></li>
-                                <li><a href="">About us</a></li>
-                                <li><a href="">Contact us</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">Wishlist</a></li>
-                                <li><a href="">Cart</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-5">
-                            <ul>
-                                <li><a href="">Checkout</a></li>
-                                <li><a href="">Testimonials</a></li>
-                                <li><a href="">FAQ</a></li>
-                                <li><a href="">Terms & Conditions</a></li>
-                                <li><a href="">Privacy Policy</a></li>
-                            </ul>
-
-
-                        </div>
-                    </div>
-                </div>
-                <hr class="clearfix w-100 d-md-none pb-3 p-4">
-                <div class="col-md-4 mb-md-0 mb-3 ">
-
-                    <h5 class="text-uppercase font-weight-bold footer-titles p-4">CONTACT US</h5>
-                    <div class="row footer-adress">
-                        <div class="px-5">
-                            <span class="adress-icon"><i class="fa-solid fa-location-dot"></i></span>
-                            <span class="footer-p2">2118 Thornridge Cir. Syracuse, Connecticut 35624</span>
-                        </div>
-                        <div class="px-5">
-                            <span class="adress-icon"><i class="fa-solid fa-phone"></i></span>
-                            <span class="footer-p2">(684) 555-0102</span>
-                        </div>
-                        <div class="px-5">
-                            <span class="adress-icon"><i class="fa-solid fa-envelope"></i></span>
-                            <span class="footer-p2">michelle.rivera@example.com</span>
-                        </div>
-                    </div>
-
+                <div class="col-md-12 similar">
+                    <h1>similar products</h1>
                 </div>
             </div>
         </div>
 
-        <div class="footer-copyright text-center mt-3 py-4"> Copyright © 2022,
-            <a href="/"> All Rights Reserved dri</a>
+
+        <div class="container">
+            <div class="row our-product">
+
+                <div class="col-md-4 col-sm-6 card-1">
+                    <div class="card text-center">
+                        <img src="./image/Rectangle 8.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-img-overlay like-icon">
+                                <p>20% OFF</p>
+                                <span class="material-symbols-outlined">
+                                    favorite
+                                </span>
+                            </div>
+                            <h5 style="color: yellow;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h5>
+                            <h4>DRI TRAVEL TRIO</h4>
+                            <p>On-the-go moisture in a holiday</p>
+                            <h6>
+                                $200 <span> $500 </span>
+                            </h6>
+                            <button><i class="fa-solid fa-cart-shopping"></i> ADD TO CARD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 card-1">
+                    <div class="card text-center">
+                        <img src="./image/Rectangle 8 (1).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>
+                                <i style="color: yellow;" class="fa-solid fa-star"></i>
+                                <i style="color: yellow;" class="fa-solid fa-star"></i>
+                                <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                                <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                                <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                            </h5>
+                            <div class="card-img-overlay like-icon">
+                                <span class="material-symbols-outlined">
+                                    favorite
+                                </span>
+                            </div>
+                            <h4>DRI TRAVEL TRIO</h4>
+                            <p>On-the-go moisture in a holiday</p>
+                            <h6>
+                                $200 <span> $500 </span>
+                            </h6>
+                            <button><i class="fa-solid fa-cart-shopping"></i> ADD TO CARD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 card-1">
+                    <div class="card text-center">
+                        <img src="./image/Rectangle 8 (2).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>
+                                <i style="color: yellow;" class="fa-solid fa-star"></i>
+                                <i style="color: yellow;" class="fa-solid fa-star"></i>
+                                <i style="color: yellow;" class="fa-solid fa-star"></i>
+                                <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                                <i style="color: #CDCDCD;" class="fa-solid fa-star"></i>
+                            </h5>
+                            <div class="card-img-overlay like-icon">
+                                <span class="material-symbols-outlined">
+                                    favorite
+                                </span>
+                            </div>
+                            <h4>DRI TRAVEL TRIO</h4>
+                            <p>On-the-go moisture in a holiday</p>
+                            <h6>
+                                $200 <span> $500 </span>
+                            </h6>
+                            <button><i class="fa-solid fa-cart-shopping"></i> ADD TO CARD</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-shop mb-5 pb-5 mt-5 pb-5">
+                    <button type="button" class="btn btn-light">VIEW MORE</button>
+                </div>
+            </div>
         </div>
 
-    </footer>
+
+        <footer class="footer font-small teal pt-4">
+
+            <div class="container  text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3 px-5">
+
+                        <img src="./image/WhatsApp_Image_2022-11-05_at_1.30.png" alt="image is not found"
+                            class="img-fluid">
+                        <p class="footer-p1">it is a long established fact that a reader will be distracted by the
+                            readable
+                            content of a page when looking at its layout.</p>
+                        <h6 class="footer-p1">FOLLOW US</h6>
+                        <div class="d-flex flex-center social-media">
+
+
+                            <a class="ins-ic">
+                                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="fb-ic">
+                                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="pin-ic">
+                                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                            </a>
+                            <a class="tw-ic">
+                                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="yt-ic">
+                                <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-md-0 mt-3 ">
+
+                        <!-- Content -->
+                        <h5 class="text-uppercase font-weight-bold footer-titles p-4">COMPANY</h5>
+                        <div class="row footer-list">
+                            <div class="col-md-5">
+                                <ul>
+                                    <li><a href="">Product</a></li>
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">Contact us</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Wishlist</a></li>
+                                    <li><a href="">Cart</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-5">
+                                <ul>
+                                    <li><a href="">Checkout</a></li>
+                                    <li><a href="">Testimonials</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                    <li><a href="">Terms & Conditions</a></li>
+                                    <li><a href="">Privacy Policy</a></li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3 p-4">
+                    <div class="col-md-4 mb-md-0 mb-3 ">
+
+                        <h5 class="text-uppercase font-weight-bold footer-titles p-4">CONTACT US</h5>
+                        <div class="row footer-adress">
+                            <div class="px-5">
+                                <span class="adress-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                <span class="footer-p2">2118 Thornridge Cir. Syracuse, Connecticut 35624</span>
+                            </div>
+                            <div class="px-5">
+                                <span class="adress-icon"><i class="fa-solid fa-phone"></i></span>
+                                <span class="footer-p2">(684) 555-0102</span>
+                            </div>
+                            <div class="px-5">
+                                <span class="adress-icon"><i class="fa-solid fa-envelope"></i></span>
+                                <span class="footer-p2">michelle.rivera@example.com</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright text-center mt-3 py-4"> Copyright © 2022,
+                <a href="/"> All Rights Reserved dri</a>
+            </div>
+
+        </footer>
 
 </body>
 
