@@ -1210,6 +1210,10 @@
     margin-bottom: 30px;
 }
 
+.dri {
+    margin-bottom: 30px;
+}
+
 
 /* my cart */
 
@@ -1608,55 +1612,7 @@
 }
 
 
-/* summery */
 
-.main{
-    font-weight: bold;
-    color: black;
-    font-size: 50px;
-    text-align: center;
-   padding-top: 40px;
-
-  }
-
-  .first p{
-    color: gray;
-  }
-  
-
-  .btnaddress{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-  
-  }
-
-  .btnsave{
-    margin: 0;
-  }
-  .lastbtn{
-    background-color: #0F0F0F;
-    color: #F7F7F7;
-    border-radius: 10px;
-    width: 100%;
-   
-  }
-
-  .mainn{
-    background-color: #FFFFFF;
-  }
-  .conbtn{
-    padding-bottom: 20px;
-  }
-  .rounded{
-    font-family: 'Jost';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-color: #4D4D4D;
-  }
 
 
 @media screen and (max-width:1200px) {
