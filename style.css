@@ -342,10 +342,12 @@
     color: #FFFFFF;
     background-color: #F04438;
     float: left;
-    padding: 10px 10px 12px;
+    padding: 8px 10px;
     border-radius: 15px;
     margin-right: auto;
 }
+
+
 
 .shampoo {
     background-color: #374A5B;
@@ -523,6 +525,40 @@
     line-height: 20px;
 }
 
+.card img{
+    position: relative;
+}
+
+.shampo-card a {
+    width: 175px;
+    height: 41px;
+    border: 1px solid #4D4D4D;
+    border-radius: 15px;
+    color: #4D4D4D;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 10px 17px;
+    z-index: 100 !important;
+}
+
+.shampo-card a:hover {
+    color: black;
+}
+
+.like-icon p {
+    position: absolute;
+    top: 20px;
+}
+
+.like-icon span {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
 
 .last-section-text input {
     background-color: #F7F7F7;
@@ -1570,6 +1606,57 @@
 .login-id p {
     font-size: 16px;
 }
+
+
+/* summery */
+
+.main{
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+   padding-top: 40px;
+
+  }
+
+  .first p{
+    color: gray;
+  }
+  
+
+  .btnaddress{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+  
+  }
+
+  .btnsave{
+    margin: 0;
+  }
+  .lastbtn{
+    background-color: #0F0F0F;
+    color: #F7F7F7;
+    border-radius: 10px;
+    width: 100%;
+   
+  }
+
+  .mainn{
+    background-color: #FFFFFF;
+  }
+  .conbtn{
+    padding-bottom: 20px;
+  }
+  .rounded{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+color: #4D4D4D;
+  }
 
 
 @media screen and (max-width:1200px) {
