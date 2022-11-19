@@ -44,6 +44,12 @@
     gap: 20px;
 }
 
+.menu li a:active,
+.menu li a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
 .keep-active {
     color: #fff;
 }
@@ -242,15 +248,15 @@
 }
 
 .content-shop button {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
     width: 161px;
     min-height: 54px;
     font-weight: 700;
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 12px 20px;
     gap: 8px;
     background: #ffff;
@@ -525,7 +531,7 @@
     line-height: 20px;
 }
 
-.card img{
+.card img {
     position: relative;
 }
 
@@ -1200,30 +1206,31 @@
     text-align: center;
 }
 
-.nav-pills a{
+.nav-pills a {
     color: #A8A8A8;
     text-decoration: none;
     padding: 5px 30px;
     font-family: 'Jost';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height, or 150% */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
 
-text-align: center;
+    text-align: center;
 }
 
-.nav-pills .active a{
+.nav-pills .active a {
     color: #000;
 }
 
-.nav-pills a:active ,.nav-pills a:focus {
+.nav-pills a:active,
+.nav-pills a:focus {
     color: black;
     text-decoration: none;
 }
 
-.nav-pills a:hover{
+.nav-pills a:hover {
     color: black;
     text-decoration: none;
 }
@@ -1310,6 +1317,249 @@ text-align: center;
     margin-right: -200px;
 }
 
+
+
+/* find sloon */
+.findLocation {
+    padding-top: 54px;
+    background-color: #EDEAE5;
+    padding-bottom: 54px;
+}
+
+.findsloon {
+    background-color: #fff;
+    padding: 50px;
+}
+
+
+.findLocation p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.findsloon h3 {
+
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.findsloon span {
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.internationl h6 {
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.country {
+    /* display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 30px;
+}
+
+.country-selctor {
+    /* width: 390px;
+height: 54px; */
+    padding: 12px 20px;
+    background: #F7F7F7;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 10px;
+}
+
+.email-input {
+    padding: 12px 20px !important;
+}
+
+.internationl-search button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Jost';
+    font-style: normal;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #ffff;
+    background: #0F0F0F;
+}
+
+.another button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Jost';
+    font-style: normal;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #ffff;
+    background: #0F0F0F;
+    border: transparent;
+    margin-bottom: 128px;
+}
+
+.search-input {
+    left: 420px;
+    top: 61px;
+    border-radius: 10px;
+    padding: 12px 20px 12px 20px;
+}
+
+.search-check {
+     position: absolute;
+     top: 10%;
+
+}
+
+.location-search {
+    gap: 12px;
+}
+
+.stay-touch {
+    margin-top: 54px;
+}
+
+
+/* find salone page */
+
+.find2 h1 {
+    font-family: "Jost";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 12px;
+}
+
+.find2 a {
+    text-decoration: none;
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+
+/* dropdown */
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dd-button {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    /* background-color: #ffffff; */
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+}
+
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 53%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+
+.dd-input {
+    display: none;
+}
+
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    margin: 2px 0 0 0;
+    list-style-type: none;
+}
+
+.dd-menu input::placeholder {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CDCDCD;
+}
+
+.dd-menu input {
+    height: 54px;
+    width: 390px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 20px;
+}
+
+.dd-input+.dd-menu {
+    display: none;
+}
+
+.dd-input:checked+.dd-menu {
+    display: block;
+}
+
+.dd-menu li {
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dd-menu li:hover {
+    background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+}
+
+.dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
 @media (max-width: 1200px) {
     .proceed {
         font-size: 9px;
@@ -1375,6 +1625,16 @@ text-align: center;
 
     .right-button {
         margin-right: -50px;
+    }
+
+    .findsloon h3 {
+        font-size: 38px !important;
+        line-height: 48px;
+    }
+
+    .findsloon span {
+        font-size: 38px;
+        line-height: 48px;
     }
 }
 
@@ -1674,6 +1934,7 @@ text-align: center;
     .like-icon span {
         padding: 6px 9px;
     }
+
     .travel {
         text-align: center;
     }
@@ -1744,6 +2005,7 @@ text-align: center;
     .history2 {
         margin-top: 10px;
     }
+
     .naddress {
         text-align: center;
     }
