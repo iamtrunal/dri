@@ -17,6 +17,8 @@
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
@@ -118,137 +120,115 @@
         </div>
     </div>
 
-    <div style="background: #E6E6E6;">
+    <div style="background: #E6E6E6; padding-top: 30px;">
 
-        <div class="container" style="padding-top: 80px;">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-3 col-sm-6" onclick="ChangeStyle()" id="myDiv">
-                    <label class="dropdown w-100">
-
-                        <div class="dd-button w-100 border-0" id="button-search">
-                            SEARCH
-                        </div>
-                        <hr class="mt-0" style="margin-bottom: 20px;">
-
-                        <input type="checkbox" class="dd-input" id="test">
-
-                        <ul class="toogle-bar w-100" style=" background-size: cover;">
-                            <li><input type="text" required class="w-100"
-                                    placeholder="Enter city, province or postal code">
-                                <div class="another border-0">
-                                    <button>SEARCH <i class="fa-solid fa-location-crosshairs"></i></button>
+                <div class="col-md-12">
+                    <div class="d-flex">
+                        <div class="col-md-4">
+                            <div class="dropdown__">
+                                <div class="head d-flex justify-content-between">SEARCH <span
+                                        class="material-symbols-outlined">
+                                        expand_less
+                                    </span>
                                 </div>
-                            </li>
-                        </ul>
+                                <hr class="mt-0">
+                                <ul class="dropdown__list__">
+                                    <li class="dropdown__item__ pl-0 pt-3 ">
+                                        <input type="text" required class="w-100"
+                                            placeholder="Enter city, province or postal code">
 
-                    </label>
-                </div>
-                <div class="col-md-4 col-sm-3">
-                    <label class="dropdown w-100">
-
-                        <div class="dd-button  w-100 border-0" id="button-filter">
-                            FILTER
+                                    </li>
+                                    <li class="dropdown__item__">
+                                        <div class="another border-0">
+                                            <button>SEARCH <i class="fa-solid fa-location-crosshairs"></i></button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
 
-                        <hr class="mt-0" style="margin-bottom: 20px;">
+                        <div class="col-md-4">
+                            <div class="dropdown__">
+                                <div class="head d-flex justify-content-between">FILTER <span
+                                        class="material-symbols-outlined">
+                                        expand_less
+                                    </span></div>
+                                <hr class="mt-0">
+                                <ul class="dropdown__list__">
+                                    <li class="dropdown__item__">
+                                        <label class="dropdown text-dark">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            <span>Salon</span>
+                                        </label>
 
-
-                        <input type="checkbox" class="dd-input" id="test">
-
-                        <ul class="toogle-bar w-100">
-                            <li>
-
-                                <label class="dropdown abc w-100">
-
-                                    <div class="dd-button  w-100 search-input border-0" style="color: #CDCDCD;">
-                                        <span class="km">10KM</span>
-                                    </div>
-
-                                    <input type="checkbox" class="dd-input search-check mt-5" id="test">
-
-                                    <ul class="toogle-bar w-100 seaech-input" style="margin-top: 30px;">
-                                        <li class="check-now form-check p-0 d-flex" style="margin-bottom: 30px;">
-                                            <label class="dropdown text-dark">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                                <span>Salon</span>
-                                            </label>
-
-                                            <label class="dropdown">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                                <span>Store</span>
-                                            </label>
-                                        </li>
-                                        <li class="check-now form-check p-0 d-flex">
-                                            <label class="dropdown text-dark">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                                <span>Dri Salon</span>
-                                            </label>
-                                        </li>
-                                        <li class="check-now form-check p-0 d-flex">
-                                            <label class="dropdown text-dark">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                                <span>Dri Shampoo Wash</span>
-                                            </label>
-                                        </li>
-
-                                    </ul>
-
-                                </label>
-
-                            </li>
-                        </ul>
-
-                    </label>
-                </div>
-                <div class="col-md-4 col-sm-3" id="myDiv">
-
-                    <label class="dropdown w-100">
-
-                        <div class="dd-button w-100 border-0">
-                            INTERNATIONAL SEARCH
+                                        <label class="dropdown">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            <span>Store</span>
+                                        </label>
+                                    </li>
+                                    <li class="dropdown__item__">
+                                        <label class="dropdown text-dark">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            <span>Dri Salon</span>
+                                        </label>
+                                    </li>
+                                    <li class="dropdown__item__">
+                                        <label class="dropdown text-dark">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            <span>Dri Shampoo Wash</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <hr class="mt-0" style="margin-bottom: 20px;">
 
-                        <input type="checkbox" ag="RemoveStyle()" class="dd-input" id="test">
+                        <div class="col-md-4">
+                            <div class="dropdown__">
+                                <div class="head d-flex justify-content-between">INTERNATIONAL SEARCH <span
+                                        class="material-symbols-outlined">
+                                        expand_less
+                                    </span></div>
+                                <hr class="mt-0">
+                                <ul class="dropdown__list__">
+                                    <li class="dropdown__item__">
+                                        <select name="country" class="country-selctor country-select-now w-100"
+                                            required>
+                                            <option value="" disabled selected>country</option>
+                                            <option value="">India</option>
+                                        </select>
+                                    </li>
+                                    <li class="dropdown__item__">
+                                        <select name="city"
+                                            class="country-selctor country-select-now w-100 mt-md-0 mt-2" required>
+                                            <option value="" disabled selected>city</option>
+                                            <option value="">city</option>
+                                        </select>
+                                    </li>
+                                    <li class="dropdown__item__">
+                                        <div class="another border-0" style="margin-top: 30px;">
+                                            <button>SEARCH <i class="fa-solid fa-location-crosshairs"></i></button>
+                                        </div>
+                                    </li>
 
-                        <ul class="toogle-bar w-100">
-                            <li style="margin-bottom: 20px;">
-                                <select name="country" class="country-selctor country-select-now w-100" required>
-                                    <option value="" disabled selected>country</option>
-                                    <option value="">India</option>
-                                </select>
+                                </ul>
+                            </div>
+                        </div>
 
-                            </li>
-
-
-                            <li>
-                                <select name="city" class="country-selctor country-select-now w-100 mt-md-0 mt-2"
-                                    required>
-                                    <option value="" disabled selected>city</option>
-                                    <option value="">city</option>
-                                </select>
-                            </li>
-
-                            <li>
-                                <div class="another border-0" style="margin-top: 30px;">
-                                    <button>SEARCH <i class="fa-solid fa-location-crosshairs"></i></button>
-                                </div>
-                            </li>
-
-                        </ul>
-
-                    </label>
-
+                    </div>
                 </div>
             </div>
         </div>
-    </div> 
 
-<div style="background: #E6E6E6;">
+        
+    </div>
+
+    <div style="background: #E6E6E6;  padding-top: 100px;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -355,7 +335,7 @@
 
 
 
-<footer class="footer font-small teal pt-4" style="margin-top: 80px;">
+     <footer class="footer font-small teal pt-4" style="margin-top: 80px;">
 
     <div class="container  text-md-left">
         <div class="row">
@@ -387,10 +367,10 @@
 
                 </div>
             </div>
-            <div class="col-md-4 mt-md-0 mt-3 ">
+            <div class="col-md-4 mt-md-0 mt-3 "> 
 
-                <!-- Content -->
-                <h5 class="text-uppercase font-weight-bold footer-titles p-4">COMPANY</h5>
+    <!-- Content -->
+     <h5 class="text-uppercase font-weight-bold footer-titles p-4">COMPANY</h5>
                 <div class="row footer-list">
                     <div class="col-md-5">
                         <ul>
@@ -442,8 +422,80 @@
         <a href="/"> All Rights Reserved dri</a>
     </div>
 
-</footer>
-</div>
+</footer> 
+    </div>
+
+
+    <script>
+        const allDropdowns = document.querySelectorAll('.dropdown__')
+        if (allDropdowns) {
+            allDropdowns.forEach(dropdown => {
+                let dropdownList = dropdown.querySelector('.dropdown__list__')
+                let dropdownListHeight = dropdownList.getBoundingClientRect().height
+                let compStl = window.getComputedStyle(dropdownList)
+                let currentpadding = compStl.getPropertyValue('padding')
+                let dropdownListPadding = currentpadding
+                dropdownList.style.height = '0px';
+                dropdownList.style.overflow = 'hidden';
+                dropdownList.style.padding = '0px'
+                dropdownList.style.display = 'none';
+
+                dropdown.addEventListener('click', () => {
+                    allDropdowns.forEach(dropdown2 => {
+                        if (dropdown2.classList.contains('active') && dropdown !== dropdown2) {
+                            dropdown2.classList.remove('active')
+                            let dropdownList2 = dropdown2.querySelector('.dropdown__list__')
+                            dropdownList2.style.height = `0px`;
+                            dropdownList2.style.padding = '0px'
+                            let compStyle = window.getComputedStyle(dropdownList2)
+                            let currentTransition = compStyle.getPropertyValue(
+                                'transition-duration')
+                            setTimeout(() => {
+                                dropdownList2.style.display = 'none'
+                            }, currentTransition.slice(0, -1) * 1000)
+                        }
+                    })
+                    if (dropdown.classList.contains('active')) {
+                        dropdown.classList.remove('active')
+                        dropdownList.style.height = `0px`;
+                        dropdownList.style.padding = '0px'
+
+                        let compStyle = window.getComputedStyle(dropdownList)
+                        let currentTransition = compStyle.getPropertyValue('transition-duration')
+                        setTimeout(() => {
+                            dropdownList.style.display = 'none'
+                        }, currentTransition.slice(0, -1) * 1000)
+                    } else if (!dropdown.classList.contains('active')) {
+                        dropdown.classList.add('active')
+                        dropdownList.style.display = 'flex';
+
+                        setTimeout(() => {
+                            dropdownList.style.height = `${dropdownListHeight}px`;
+                            dropdownList.style.padding = `${dropdownListPadding}`;
+
+                        }, 50)
+                    }
+                })
+                document.addEventListener('click', (e) => {
+                    if (!e.target.closest('.dropdown__')) {
+                        allDropdowns.forEach(dropdown2 => {
+                            dropdown2.classList.remove('active')
+                            let dropdownList2 = dropdown2.querySelector('.dropdown__list__')
+                            dropdownList2.style.height = `0px`;
+                            dropdownList2.style.padding = '0px'
+                            let compStyle = window.getComputedStyle(dropdownList2)
+                            let currentTransition = compStyle.getPropertyValue(
+                                'transition-duration')
+                            setTimeout(() => {
+                                dropdownList2.style.display = 'none'
+                            }, currentTransition.slice(0, -1) * 1000)
+                        })
+                    }
+                })
+
+            })
+        }
+    </script>
 
 </body>
 

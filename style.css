@@ -29,12 +29,12 @@
 .location h6 a {
     text-decoration: none;
     font-family: "Jost";
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
 }
 
 .menu li a {
@@ -1425,28 +1425,14 @@ height: 54px; */
     background: #0F0F0F;
 }
 
-.another button {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    font-family: 'Jost';
-    font-style: normal;
-    text-align: center;
-    padding: 12px 20px;
-    border-radius: 10px;
-    color: #ffff;
-    background: #0F0F0F;
-    border: transparent;
-    margin-bottom: 128px;
-}
-
-.search-input {
-    left: 420px;
-    top: 61px;
-    border-radius: 10px;
-    padding: 12px 20px 12px 20px;
-}
-
+/* 
+    .search-input {
+        left: 420px;
+        top: 61px;
+        border-radius: 10px;
+        padding: 12px 20px 12px 20px;
+    } */
+/* 
 .search-check {
     position: absolute;
     top: 10%;
@@ -1459,7 +1445,7 @@ height: 54px; */
 
 .stay-touch {
     margin-top: 54px;
-}
+}  */
 
 
 /* find salone page */
@@ -1483,13 +1469,13 @@ height: 54px; */
     letter-spacing: 0em;
     margin-bottom: 30px;
     
-}
+} 
 
 
 /* dropdown */
 
 
-.dropdown {
+/* .dropdown {
     display: inline-block;
     position: relative;
     
@@ -1499,7 +1485,6 @@ height: 54px; */
     display: inline-block;
     border: 1px solid gray;
     border-radius: 4px;
-    /* background-color: #ffffff; */
     cursor: pointer;
     white-space: nowrap;
     display: flex;
@@ -1544,17 +1529,6 @@ height: 54px; */
     font-size: 20px;
     line-height: 30px;
     color: #CDCDCD;
-}
-
-.toogle-bar input {
-    height: 54px;
-    width: 390px;
-    left: 0px;
-    top: 0px;
-    border-radius: 10px;
-    padding: 12px 20px 12px 20px;
-    border: 1px solid #DEDEDE;
-    margin-bottom: 20px;
 }
 
 .dd-input+.toogle-bar {
@@ -1676,7 +1650,495 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
+} */
+
+
+.dropdown__ {
+    position: relative;
+    cursor: pointer;
+    min-width: max-content;
+    max-width: 100%;
+    margin-right: 50px;
 }
+
+
+.dropdown__ .head {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 4px;
+    color: #212428;
+    border: none;
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.dropdown__list__ {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 100%;
+    max-width: max-content;
+    z-index: 9999;
+    top: calc(100% + 10px);
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgb(107 118 123 / 30%);
+    transition: all 0.5s ease;
+}
+
+.dropdown__link__ {
+    display: flex;
+    width: 100%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.dropdown__item__ {
+    width: 100%;
+    padding: 5px 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.dropdown__item__  input {
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 20px;
+    /* padding-top: 20px; */
+}
+
+ .another button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Jost';
+    font-style: normal;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #ffff;
+    background: #0F0F0F;
+    border: transparent;
+    margin-bottom: 128px;
+} 
+
+/* pyment */
+
+.method{
+    font-family: 'Jost', sans-serif !important;
+  }
+  
+  .abc{
+    background: #E6E6E6;
+  }
+  
+  .visa{
+    border: 2px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    position: relative;
+  }
+  
+  .delet-fafa {
+   position: absolute;
+   top: 35%;
+   left: 95%;
+  }
+  
+  .calnedar {
+    position: relative;
+  }
+  
+  .calender-fafa {
+    position: absolute;
+    top: 18%;
+    left: 45%;
+  }
+  
+  .card{
+    margin-bottom: 100px;
+  }
+  
+  .add1{
+    margin-top: 10px;
+  }
+  
+  .add{
+    border: 1px solid #282D26;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .visaimg{
+    height: 80px;
+  }
+  
+  .bell{
+    padding: 10px;
+  }
+
+
+  .main{
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+   padding-top: 40px;
+
+  }
+  .breadcrumb-item .a1{
+    font-size:10px;
+    text-decoration: none!important;
+    color: gray;
+
+  }
+  .breadcrumb-item .a3{
+    font-size:10px;
+    text-decoration: none!important;
+    color: gray;
+
+  }
+  .breadcrumb-item .a2{
+    font-size: 10px;
+  }
+ 
+  .btnhome{
+    background-color: black;
+    color: white;
+    font-size: x-small;
+  }
+  .first p{
+    color: gray;
+  }
+  
+ .rounded{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+color: #4D4D4D;
+}
+  .btnaddress{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+  
+  }
+  .naddress{
+    padding-top: 50px;
+  }
+  .breadcrumb-item {
+    margin-left: 0!important;
+  }
+  .breadcrumb-item .a2{
+    font-size:20px;
+   text-decoration: solid;
+    color:black;
+
+  }
+  .btnsave{
+    margin: 0;
+  }
+  .lastbtn{
+    background-color: #0F0F0F;
+    color: #F7F7F7;
+    border-radius: 10px;
+    width: 100%;
+   
+  }
+  .conbtn{
+    padding-bottom: 20px;
+  }
+  .card-i{
+    height: 90px;
+    width:90px;
+  }
+  
+
+  /* summarry */
+
+  .btnhome{
+    background-color: black;
+    color: white;
+    font-size: x-small;
+  }
+  .first p{
+    color: gray;
+  }
+  
+
+  .btnaddress{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+  
+  }
+  .naddress{
+    padding-top: 50px;
+  }
+  .breadcrumb-item {
+    margin-left: 0!important;
+  }
+  .breadcrumb-item .a2{
+    font-size:20px;
+   text-decoration: solid;
+    color:black;
+
+  }
+  .btnsave{
+    margin: 0;
+  }
+  .lastbtn{
+    background-color: #0F0F0F;
+    color: #F7F7F7;
+    border-radius: 10px;
+    width: 100%;
+   
+  }
+  .mainn{
+    background-color: #FFFFFF;
+  }
+  .conbtn{
+    padding-bottom: 20px;
+  }
+  .rounded{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+color: #4D4D4D;
+  }
+  .card-i{
+    height: 90px;
+    width:90px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .t1{
+      display: flex!important;
+    }
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .add{
+      width: 150px;
+      margin-top: 30px;
+    } 
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .add{
+      width: 150px;
+      margin-top: 30px;
+      margin-left: -20px;
+      margin-top: 15px !important;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .t1{
+      display: flex!important;
+    }
+    .add1{
+      font-size: 15px !important;
+      margin-top: 27px !important;
+    }
+    .add{
+      font-size: 10px !important;
+      width: 130px !important;
+      margin-left: -30px;
+      margin-top: 20px !important;
+    }
+    .visaimg{
+      width: 180px !important;
+      height: 125px !important;
+    }
+    .red{
+      width: 200px !important;
+      height: 125px !important;
+      padding-left: 20px !important;
+    }
+    .blue{
+      width: 180px !important; 
+      height: 130px !important;
+      padding-top: 20px !important; 
+    }
+    .pay{
+      width: 200px !important;
+      height: 130px !important;
+      padding-top: 20px !important;
+      padding-left: 20px !important;
+    }
+  }
+  
+  @media screen and (min-width: 600px) {
+    .add1{
+      margin-top: 20px !important;
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .t1{
+      display: flex!important;
+      flex-direction: column!important;
+    }
+    .add1{
+      font-size: 15px !important;
+      margin-top: 27px !important;
+    }
+    .add{
+      font-size: 12px !important;
+      width: 150px !important;
+      margin-left: -50px !important;
+      margin-top: 20px !important;
+      padding: 5px !important;
+    }
+    .a2{
+      text-align: center;
+    }
+    .CARD1{
+      text-align: center;
+    }
+  }
+  
+  @media (max-width:476px) {
+    .credit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .visaimg{
+      width: 225px !important;
+      height: 125px !important;
+      padding-left: 40px !important;
+    }
+    .red{
+      width: 200px !important;
+      height: 125px !important;
+      padding-left: 20px !important;
+    }
+    .blue{
+      width: 225px !important; 
+      height: 130px !important;
+      padding-top: 20px !important; 
+      padding-left: 40px !important;
+    }
+    .pay{
+      width: 200px !important;
+      height: 130px !important;
+      padding-top: 20px !important;
+      padding-left: 20px !important;
+    }
+    .add1{
+      font-size: 15px !important;
+      margin-top: 27px !important;
+    }
+    .add{
+      font-size: 12px !important;
+      width: 150px !important;
+      margin-left: -50px !important;
+      margin-top: 20px !important;
+      padding: 5px !important;
+    }
+    .a2{
+      text-align: center;
+    }
+    .CARD1{
+      text-align: center;
+    }
+  }
+  
+  @media (max-width:454px) {
+    .payment-image {
+      text-align: center;
+    }
+    .blue {
+      padding-left: 3px !important;
+      width: 250px !important;
+    }
+    .red {
+      padding-top: 20px !important;
+      width: 50% !important;
+    }
+    .blue{
+      width: 190px !important;
+    }
+    .pay{
+      width: 50% !important;
+    }
+  }
+  
+  @media (max-width:360px) {
+    .add1{
+      font-size: 2px !important;
+    }
+    .add123{
+      font-size: 7px !important;
+      padding-top: 0px !important;
+    }
+  }
+  
+  @media (max-width:300px) {
+
+    .visaimg{
+      width: 225px !important;
+      height: 125px !important;
+      padding-left: 40px !important;
+    }
+    .red{
+      width: 200px !important;
+      height: 125px !important;
+      padding-left: 20px !important;
+    }
+    .blue{
+      width: 225px !important; 
+      height: 130px !important;
+      padding-top: 20px !important; 
+      padding-left: 40px !important;
+    }
+    .pay{
+      width: 200px !important;
+      height: 130px !important;
+      padding-top: 20px !important;
+      padding-left: 20px !important;
+    }
+    .add1{
+      font-size: 15px !important;
+      margin-top: 27px !important;
+    }
+    .add{
+      font-size: 12px !important;
+      width: 150px !important;
+      margin-left: -50px !important;
+      margin-top: 20px !important;
+      padding: 5px !important;
+    }
+    .a2{
+      text-align: center;
+    }
+    .CARD1{
+      text-align: center;
+    }
+  }
 
 
 @media (max-width: 1200px) {
